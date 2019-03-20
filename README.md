@@ -1,46 +1,10 @@
-# MyBatis 通用 Mapper4
+# MyBatis 通用 Mapper5
 
 [![Build Status](https://travis-ci.org/abel533/Mapper.svg?branch=master)](https://travis-ci.org/abel533/Mapper)
 [![Maven central](https://maven-badges.herokuapp.com/maven-central/tk.mybatis/mapper/badge.svg)](https://maven-badges.herokuapp.com/maven-central/tk.mybatis/mapper)
 
-通用Mapper都可以极大的方便开发人员。可以随意的按照自己的需要选择通用方法，还可以很方便的开发自己的通用方法。
+通用 Mapper5 基于 MyBatis 3.5.1+ 版本，使用全新的方式进行实现。
 
-极其方便的使用MyBatis单表的增删改查。
-
-支持单表操作，不支持通用的多表联合查询。
-
-**通用 Mapper 支持 Mybatis-3.2.4 及以上版本。**
-
-## [**快速入门 - MyBatis 为什么需要通用 Mapper ?**](https://blog.csdn.net/isea533/article/details/83045335)
-
-简介: 在早期项目文档中有过类似主题的内容，但是最近我自己看文档的时候发现一个问题，文档虽然很详细，但是并不适合初次接触的人。为了方便第一次听说，第一次尝试的开发人员了解通用 Mapper，补充此文档。
-
-强烈建议初学者阅读本文，先从整体上了解 通用 Mapper，然后再通过下面的文档更深入的了解。
-
-## 项目文档
-
-- [文档 - Gitee](https://gitee.com/free/Mapper/wikis/Home)  
-
-- [文档 - GitHub](https://github.com/abel533/Mapper/wiki)
-
-- [JavaDoc](https://apidoc.gitee.com/free/Mapper/)
-
-- [更新日志 - Gitee](https://gitee.com/free/Mapper/wikis/changelog)
-
-- [更新日志 - GitHub](https://github.com/abel533/Mapper/wiki/changelog)
-
-## 作者信息
-   
-   MyBatis 工具网站:[https://mybatis.tk](https://mybatis.tk)
-   
-   作者博客：http://blog.csdn.net/isea533
-   
-   作者邮箱： abel533@gmail.com
-   
-   如需加群，请通过 https://mybatis.tk 首页按钮加群。
-   
-   推荐使用Mybatis分页插件:[PageHelper分页插件](https://github.com/pagehelper/Mybatis-PageHelper)
-   
 ## 作者新书：《MyBatis 从入门到精通》
 
 ![MyBatis 从入门到精通](https://github.com/mybatis-book/book/raw/master/book.png)
