@@ -5,6 +5,11 @@
 
 通用 Mapper5 基于 MyBatis 3.5.1+ 版本，使用全新的方式进行实现。
 
+两个关键点：
+
+provider 指定的方法可以生成自定义的脚本（DSL），自定义的 LanguageDriver 可以解析 DSL，同时要通过缓存避免重复操作。
+
+
 ## 作者新书：《MyBatis 从入门到精通》
 
 ![MyBatis 从入门到精通](https://github.com/mybatis-book/book/raw/master/book.png)
