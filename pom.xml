@@ -28,15 +28,15 @@
     <parent>
         <groupId>tk.mybatis</groupId>
         <artifactId>mapper-parent</artifactId>
-        <version>3</version>
+        <version>5-SNAPSHOT</version>
     </parent>
     <artifactId>mapper-modules</artifactId>
     <version>1.1.5</version>
     <packaging>pom</packaging>
 
-    <name>mapper-parent</name>
+    <name>mapper-modules</name>
     <description>Mybatis 通用 Mapper 聚合模块</description>
-    <url>http://www.mybatis.tk</url>
+    <url>https://mybatis.tk</url>
 
     <licenses>
         <license>
@@ -59,6 +59,7 @@
     </scm>
 	
 	<modules>
+        <module>parent</module>
         <module>all</module>
         <module>base</module>
         <module>core</module>
