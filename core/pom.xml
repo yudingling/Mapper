@@ -32,6 +32,7 @@
     </parent>
     <artifactId>mapper-core</artifactId>
     <packaging>jar</packaging>
+    <version>1.1.5-zeasn</version>
 
     <name>mapper-core</name>
     <description>Mybatis 通用 Mapper</description>

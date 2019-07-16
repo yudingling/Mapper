@@ -114,6 +114,7 @@ public class DefaultEntityResolve implements EntityResolve {
         entityColumn.setEntityField(field);
         if (field.isAnnotationPresent(Id.class)) {
             entityColumn.setId(true);
+            entityColumn.setUpdatable(false);
         }
         //Column
         String columnName = null;
